@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Models.Class1
+
+@{
+    ViewBag.Title = "Index2";
+
+}
+
+<h2>Index</h2>
+
+
+@using (Html.BeginForm("Index2", "Main", FormMethod.Post))
+{
+
+    <br />
+    @Html.EditorFor(c1 => c1.x)
+    <br />
+    @Html.EditorFor(c1 => c1.y)
+    <br />
+    @Html.DisplayFor(c1 => c1.z)
+    <input type="submit" value="add" />
+
+    <button type="submit"> ty</button>
+
+
+
+}
