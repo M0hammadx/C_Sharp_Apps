@@ -15,19 +15,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="class1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\modelLoading.shader" />
+    <None Include="Shaders\phongViewSpace.shader" />
+    <None Include="Shaders\Materials.shader" />
+    <None Include="Shaders\colors.shader" />
+    <None Include="Shaders\Gouraud.shader" />
+    <None Include="Shaders\lamp.shader" />
+    <None Include="Shaders\singleColor.shader" />
+    <None Include="Shaders\Post-processing.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model Loading\loader">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advances OpenGL\Blending.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advances OpenGL\stencil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advances OpenGL\culling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
